@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+.nav-links {
+
+}
+
+.invite-btn {
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: none;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 16px 32px;
+}
