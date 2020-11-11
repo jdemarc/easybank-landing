@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
 body {
+  font-size: 18px;
   font-family: 'Public Sans', sans-serif;
+  color: hsl(233, 8%, 62%);
+
 }
 
 nav {
@@ -12,7 +15,15 @@ nav {
 }
 
 .nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
 
+.nav-links > div:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
 }
 
 .invite-btn {
@@ -20,6 +31,35 @@ nav {
   border: none;
   color: white;
   border-radius: 50px;
-  font-size: 16px;
-  padding: 16px 32px;
+  padding: 12px 34px;
+}
+
+.invite-btn:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+header {
+  color: hsl(233, 26%, 24%);
+  font-size: 38px;
+  padding: 15px 0 15px 0;
+}
+
+.header-section {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url(images/bg-intro-desktop.svg);
+  background-position: bottom;
+}
+
+.lhs-content {
+  padding: 100px; /* Will change!*/
+  width: 50%;
+}
+
+/* Don't like this. */
+article {
+  padding: 15px 0 15px 0;
+}
+
+.rhs-content {
 }
