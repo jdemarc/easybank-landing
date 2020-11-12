@@ -56,8 +56,7 @@ article {
 
 .intro {
   background-color: hsl(0, 0%, 98%);
-  height: 500px;
-  /* width: 100%; */
+  height: 600px;
   display: flex;
   align-items: center;
 }
@@ -66,16 +65,18 @@ article {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
-  padding: 8%;
+  width: 37%;
+  margin: 8%;
 }
 
 .rhs-content {
-  border: 1px solid black;
   height: 100%;
-  width: 50%;
-  background-image: url(images/bg-intro-desktop.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
+  width: 55%;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: 8% 60%; 
 }
