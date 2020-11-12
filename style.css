@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+}
+
 body {
   font-size: 18px;
   font-family: 'Public Sans', sans-serif;
@@ -79,4 +83,16 @@ article {
   height: 100%;
   object-fit: none;
   object-position: 8% 60%; 
+}
+
+.mockups {
+  position: absolute;
+  height: 800px;
+}
+
+.cover {
+  left: 60%;
+  width: 40%;
+  object-fit: none;
+  object-position: left bottom;
 }
