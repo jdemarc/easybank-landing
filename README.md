@@ -6,3 +6,7 @@
 ## Day 1
 
 <img src="https://i.imgur.com/5VQO9dF.png">
+
+## Day 2
+
+<img src="https://i.imgur.com/nX7d3pA.png">
