@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 18px;
   font-family: 'Public Sans', sans-serif;
   color: hsl(233, 8%, 62%);
-
 }
 
 nav {
@@ -41,25 +45,37 @@ nav {
 
 header {
   color: hsl(233, 26%, 24%);
-  font-size: 38px;
-  padding: 15px 0 15px 0;
+  font-size: 44px;
+  font-weight: 300;
 }
 
-.header-section {
+article {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro {
   background-color: hsl(0, 0%, 98%);
-  background-image: url(images/bg-intro-desktop.svg);
-  background-position: bottom;
+  height: 500px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
 }
 
 .lhs-content {
-  padding: 100px; /* Will change!*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 50%;
-}
-
-/* Don't like this. */
-article {
-  padding: 15px 0 15px 0;
+  padding: 8%;
 }
 
 .rhs-content {
+  border: 1px solid black;
+  height: 100%;
+  width: 50%;
+  background-image: url(images/bg-intro-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
 }
