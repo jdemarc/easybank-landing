@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -49,15 +48,22 @@ nav {
 
 header {
   color: hsl(233, 26%, 24%);
-  font-size: 44px;
+  font-size: 50px;
   font-weight: 300;
 }
 
-article {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.why-easy {
+  font-size: 35px;
 }
 
+article {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* First section */
 .intro {
   background-color: hsl(0, 0%, 98%);
   height: 600px;
@@ -87,7 +93,7 @@ article {
 
 .mockups {
   position: absolute;
-  height: 800px;
+  height: 775px;
 }
 
 .cover {
@@ -95,4 +101,36 @@ article {
   width: 40%;
   object-fit: none;
   object-position: left bottom;
+}
+
+/* Second section */
+.features {
+  background-color: hsl(220, 16%, 96%);
+  padding: 8%;
+}
+
+.feature-container {
+  display: flex;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.feature-title {
+  color: hsl(233, 26%, 24%);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.feature > img {
+  height: 80px;
+  width: 80px;
+}
+
+span {
+  line-height: 1.6;
 }
