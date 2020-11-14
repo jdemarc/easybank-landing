@@ -10,3 +10,7 @@
 ## Day 2
 
 <img src="https://i.imgur.com/nX7d3pA.png">
+
+## Day 3
+
+<img src="https://i.imgur.com/ZQxYt8X.png">
