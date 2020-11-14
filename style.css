@@ -52,7 +52,7 @@ header {
   font-weight: 300;
 }
 
-.why-easy {
+.why-easy, .latest-articles {
   font-size: 35px;
 }
 
@@ -106,7 +106,7 @@ article {
 /* Second section */
 .features {
   background-color: hsl(220, 16%, 96%);
-  padding: 8%;
+  padding: 5% 8%;
 }
 
 .feature-container {
@@ -133,4 +133,31 @@ article {
 
 span {
   line-height: 1.6;
+}
+
+/* Third section */
+
+/* ! SAME AS FEATURE, CONDENSE */
+.latest {
+  background-color: hsl(0, 0%, 98%);
+  padding: 5% 8%;
+}
+
+/* ! SAME AS FEATURE, CONDENSE */
+
+
+.latest-container {
+  display: flex;
+}
+
+/* ! SAME AS FEATURE, CONDENSE */
+.article { 
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.article > img {
+  height: 100%;
+  width: 100%;
 }
