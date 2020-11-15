@@ -14,3 +14,7 @@
 ## Day 3
 
 <img src="https://i.imgur.com/ZQxYt8X.png">
+
+## Day 4
+
+<img src="https://i.imgur.com/22S3smA.png">
