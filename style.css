@@ -151,7 +151,7 @@ span {
 }
 
 .article > div {
-  margin: 10px 15px;
+  margin: 6px 15px;
   line-height: 1.4;
 }
 
@@ -170,4 +170,28 @@ span {
   font-size: 24px;
   font-weight: 300;
   color: hsl(233, 26%, 24%);
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  background-color: hsl(233, 26%, 24%);
+}
+
+.footer-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-col {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  flex-direction: column;
+  color: #FFF;
+  justify-content: space-around;
 }
