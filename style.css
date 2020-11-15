@@ -104,16 +104,16 @@ article {
 }
 
 /* Second section */
-.features {
+.features, .latest {
   background-color: hsl(220, 16%, 96%);
-  padding: 5% 8%;
+  padding: 5% 6%;
 }
 
-.feature-container {
+.feature-container, .latest-container {
   display: flex;
 }
 
-.feature {
+.feature, .article {
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -137,27 +137,37 @@ span {
 
 /* Third section */
 
-/* ! SAME AS FEATURE, CONDENSE */
+/* Similar to feature... */
 .latest {
   background-color: hsl(0, 0%, 98%);
-  padding: 5% 8%;
 }
 
-/* ! SAME AS FEATURE, CONDENSE */
-
-
-.latest-container {
-  display: flex;
+.latest-articles {
+  margin-bottom: 20px;
 }
 
-/* ! SAME AS FEATURE, CONDENSE */
 .article { 
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
+  margin: 15px;
+}
+
+.article > div {
+  margin: 10px 15px;
+  line-height: 1.4;
 }
 
 .article > img {
-  height: 100%;
+  height: 200px;
   width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  margin: 20px 0px;
+}
+
+.article-author {
+  font-size: 16px;
+}
+
+.article-title {
+  font-size: 24px;
+  font-weight: 300;
+  color: hsl(233, 26%, 24%);
 }
